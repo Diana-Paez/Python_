@@ -17,7 +17,9 @@ multilin
 
 '''
 
-print(10 +5)
+print(10 + 5)
 print(40 - 30)
 print(100 / 5)
 print(5 * 20)
+
+
