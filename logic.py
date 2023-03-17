@@ -25,6 +25,20 @@ print("False or False =>",False or False)
 role = input("write the rol =>" )
 print(role == "admin" or role == " seller")
 
+# operador logico not
 
+print(not True)
+print(not False)
+
+print(" NOT AND")
+print(" not True and True =>",not (True and True))
+print(" not True and False =>",not (True and False))
+print("not False and True =>", not (False and True))
+print("not False and False =>", not (False and False))
+
+
+stock = input("Write number of stock => ")
+stock = int(stock)
+print(not(stock >= 100 and stock <= 1000))
 
 
