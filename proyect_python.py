@@ -1,30 +1,30 @@
-user_option = input("piedra, papel o tijera =>")
-computer_option = "papel"
+user_option = input("rock, paper, scissors =>")
+computer_option = "paper"
 
 if user_option == computer_option:
-    print("Empate!!")
+    print("Tie!!")
 
-elif user_option == "piedra":
-    if computer_option == "tijera":
-        print("piedra gana a tijera")
-        print("user gana!!!")
+elif user_option == "rock":
+    if computer_option == "scissors":
+        print("rock beats scissors")
+        print("user wins!!!")
     else:
-        print("papel gana a piedra")
+        print("paper beats rock")
         print("computer gano!!!")
 
-elif user_option == "papel":
-    if computer_option == "piedra":
-        print("papel gana a piedra")
-        print("user gana!!!!")
+elif user_option == "paper":
+    if computer_option == "rock":
+        print("paper beats rock")
+        print("user wins!!!!")
 
     else:
-        print("tijera gana a papel")
-        print("computer gana!!!")
+        print("scissors beats paper")
+        print("computer wins!!!")
 
-elif user_option == "tijera":
-    if computer_option == "papel":
-        print("tijera gana a papel")
-        print("user gano!!!")
+elif user_option == "scissors":
+    if computer_option == "paper":
+        print("scissors beats paper")
+        print("user wins!!!")
     else:
-        print("piedra gana a tijera")
-        print("computer gana!!!")
+        print("rock beats scissors")
+        print("computer wins!!!")
