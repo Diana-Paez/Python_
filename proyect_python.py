@@ -1,4 +1,5 @@
 user_option = input("rock, paper, scissors =>")
+user_option = user_option.lower()
 computer_option = "paper"
 
 if user_option == computer_option:
@@ -10,7 +11,7 @@ elif user_option == "rock":
         print("user wins!!!")
     else:
         print("paper beats rock")
-        print("computer gano!!!")
+        print("computer wins!!!")
 
 elif user_option == "paper":
     if computer_option == "rock":

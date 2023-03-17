@@ -1,4 +1,4 @@
-# Type of data
+# Type of datac
 #string
 my_name = "Juliana"
 my_name = 'Oracio'

@@ -13,6 +13,7 @@ name = input("What is your name")
 last_name = input("what is your last name")
 age = input("What is your age")
 
+#format string
 template = "Hello, my name is " + name + ", my last name is " + last_name + " and my age is" + age
 
 print("Version1", template)

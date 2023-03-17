@@ -11,7 +11,7 @@ print(type(name))
 
 print("Nicolas" + " Salcedo")
 print(10+ 20)
-print("Nicolas"+ "33")
+print("Nicolas"+ " 33")
 
 age = 23
 print("My age is " + str(age))
